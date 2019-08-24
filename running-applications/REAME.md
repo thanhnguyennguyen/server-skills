@@ -53,3 +53,17 @@
             ```bash
             systemctl status YOUR_SERVICE_NAME
             ```
+          
+- Running app in background
+    
+    - With `nohup`
+        
+        ```bash
+        nohup ./your_script.sh & 
+        ```
+        
+    To kill background processes by name
+    
+    ```bash
+    pkill app_name
+    ```
