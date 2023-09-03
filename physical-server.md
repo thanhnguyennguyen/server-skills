@@ -1,3 +1,8 @@
+# Dislay size of disks
+```
+df -hT
+```
+
 # Mounting drive(s)
 - Check all partitions `lsblk`
 - If the output looks like the output below, and there are RAID entries in the TYPE column, you have a software RAID running:
@@ -145,4 +150,5 @@ Then create a mount point /mnt/raid1 and mount the RAID 1 drive.
 You can use this command to check how much disk space you have.
 
 `df -h /mnt/raid1`
+
 
