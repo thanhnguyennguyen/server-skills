@@ -152,3 +152,7 @@ You can use this command to check how much disk space you have.
 `df -h /mnt/raid1`
 
 
+## Remove software RAID
+https://docs.hetzner.com/robot/dedicated-server/raid/software-raid/
+
+
