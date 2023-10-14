@@ -56,7 +56,7 @@
           
 - Running app in background
     
-    - With `nohup`
+    - With `nohup` (linux built-in)
         
         ```bash
         nohup ./your_script.sh & 
@@ -67,3 +67,13 @@
     ```bash
     pkill app_name
     ```
+    - With `screen` (linux built-in)
+      ```bash
+      screen
+      # Type your command
+      # Ctrl + A to attach the session, then Ctrl + D to exit
+      # To restore the session, 
+      screen -r
+
+          
+      ```
